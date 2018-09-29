@@ -1,0 +1,118 @@
+* {
+	margin: 0;
+	border: 0;
+	padding: 0;
+
+}
+
+body {
+	font-family: Arial, Helvetica, 
+	sans-serif;
+}
+
+
+#nav_bar{
+	font-weight: bold;
+	font-size: 50px;
+	text-align: center;
+	background: rgba(0,0,0,0.7);
+	position: fixed;
+	width: 100%;
+	font-family: cursive;
+}
+
+#nav_bar a:hover, #nac_bar a:active{
+	color: white;
+}
+
+#nav_bar a{
+	color: orange;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+#nav_bar ul{
+	list-style-type: none;
+}
+
+#nav_bar li {
+	display: inline-block;
+	padding: 16px;
+}
+
+#header {
+	background: url("./cover1.jpg");
+	background-size : cover;
+	height: 50px;
+	background-attachment: fixed;
+	padding: 200px;
+	text-align: center;
+	font-family: Impact;
+}
+
+#header h1{
+	font-size: 50px;
+}
+
+#header h3{
+	font-size: 40px;
+	margin-top: 30px;
+}
+
+.about-me {
+    font-size: 40px;
+}
+
+#about table{
+	margin: 20px;
+	z-index: 3;
+}
+
+#about td{
+	padding: 10px;
+}
+
+#about p{
+	line-height: 30px;
+	font-size: 20px;
+	z-index: 3;
+}
+
+#about img{
+	position: relative;
+	border-radius: 50%;
+	top:-30px;
+    left: -10px;
+    z-index: 3;
+}
+
+.projects{
+	text-align: center;
+	color: white;
+	font-size: 40px;
+}
+
+#myprojects{
+	background: black;
+	background-size: cover;
+}
+
+#myprojects table{
+	margin: 0px;
+}
+
+#myprojects td{
+	background: white;
+	border: 15px solid transparent;
+	font-size: 25px;
+	padding: 30px;
+}
+
+#contacts{
+	background: rgba(0,0,0,0.7);
+	color: white;
+	background-color: black;
+	padding: 20px;
+	text-align: center;
+	font-size: 25px;
+}
